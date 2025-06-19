@@ -17,10 +17,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Поиск ювелирных изделий");
-
         storage = new JewelryStorage();
-
         searchField = new TextField();
+        
         searchField.setPromptText("Введите название");
 
         Button searchButton = new Button("Поиск");
